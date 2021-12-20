@@ -53,7 +53,7 @@ header {
     padding-top: 40px;
 }
 
-header h1 {
+header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
@@ -62,7 +62,7 @@ header h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-header p {
+header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
     color:white;
@@ -80,14 +80,14 @@ nav {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
-nav a {
+nav > a {
     color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav a:hover {
+nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
     border-radius: 5px;
@@ -106,14 +106,14 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-main h1 {
+main > h1 {
     color:var(--cor5);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
 }
 
-main h2 {
+main > h2 {
     font-family: var(--fonte-android);
     color:var(--cor4);
     font-size: 1.3em;
@@ -122,7 +122,7 @@ main h2 {
     text-indent: 8px;
 }
 
-main p {
+main > p {
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -130,12 +130,12 @@ main p {
     line-height: 2em;
 }
 
-main strong {
+main > strong {
     color: var(--cor4);
     font-weight: bold;
 }
 
-main a {
+main > a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
@@ -143,12 +143,12 @@ main a {
     padding: 2px 6px;
 }
 
-main a:hover {
+main > a:hover {
     text-decoration: underline;
     color: var(--cor4);
 }
 
-main img {
+main > img {
     width: 100%;
 }
 
@@ -166,7 +166,7 @@ main img {
   position: relative;
 }
 
-.video iframe {
+.video > iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -182,7 +182,7 @@ aside {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
 }
 
-aside h3 {
+aside > h3 {
     background-color: var(--cor4);
     color: white;
     padding: 10px;
@@ -190,7 +190,7 @@ aside h3 {
     border-radius: 10px 10px 0px 0px;
 }
 
-aside ul {
+aside > ul {
     list-style-type:'\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
@@ -205,13 +205,13 @@ footer {
     padding: 5px;
 }
 
-footer a {
+footer > a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-footer a:hover {
+footer > a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
